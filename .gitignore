@@ -1,0 +1,28 @@
+# Python & Django
+*.py[cod]
+*$py.class
+*.log
+*.pot
+*.pyc
+__pycache__
+*/__pycache__/
+*/*/__pycache__/
+db.sqlite3
+media
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+*.xml
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Backup files
+*.bak
+
