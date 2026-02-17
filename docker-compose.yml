@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  web:
+    image: todoapp:1.2.0
+#    build: .
+    container_name: web
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
